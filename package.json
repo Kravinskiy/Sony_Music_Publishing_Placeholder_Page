@@ -10,7 +10,7 @@
     "bootstrap": "^5.0.0-beta1"
   },
   "scripts": {
-    "build-css": "node-sass --include-path scss src/scss/main.scss public/css/main.css"
+    "build": "node-sass --include-path scss src/scss/main.scss public/css/main.css"
   },
   "devDependencies": {
     "node-sass": "^5.0.0"
