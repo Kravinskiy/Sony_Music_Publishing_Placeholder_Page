@@ -1,0 +1,71 @@
+@import "./variables";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/helpers";
+
+.sme-branding {
+    padding: 12px 15px;
+    text-align: right;
+    background: #000;
+    box-sizing: border-box;
+    line-height: 1;
+    width: 100vw;
+    z-index: 1000;
+
+    img {
+        width: 70px;
+        height: auto;
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+
+    @include media-breakpoint-between(xs, md){
+        font-size: 2rem;
+    }
+}
+
+.container-small {
+    width: 50vw;
+    margin: 0 5vw;
+}
+
+.spaced-top {
+    margin-top: 20vh;
+
+    @include media-breakpoint-between(xs, md){
+        margin-top: 10vh;
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+
+    @include media-breakpoint-between(xs, md){
+        line-height: 20px;
+        height: auto;
+        bottom: 2vh;
+    }
+}
+
+.text-right {
+    text-align: right;
+
+    @include media-breakpoint-between(xs, md){
+        text-align: left;
+    }
+}

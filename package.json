@@ -1,0 +1,18 @@
+{
+  "name": "smpplaceholderpage",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:Kravinskiy/Sony_Music_Publishing_Placeholder_Page.git",
+  "author": "Kravinskiy",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/scss/main.scss public/css/main.css"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
