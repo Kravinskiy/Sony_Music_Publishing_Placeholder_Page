@@ -7,11 +7,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap": "^5.0.0-beta1",
-    "node-static": "^0.7.11"
+    "bootstrap": "^5.0.0-beta1"
   },
   "scripts": {
-    "build": "node-sass --include-path scss src/scss/main.scss public/css/main.css"
+    "start": "node-sass --include-path scss src/scss/main.scss public/css/main.css && node index.js"
   },
   "devDependencies": {
     "node-sass": "^5.0.0"
