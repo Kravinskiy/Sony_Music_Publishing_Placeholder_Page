@@ -10,7 +10,7 @@
     "bootstrap": "^5.0.0-beta1"
   },
   "scripts": {
-    "start": "node-sass --include-path scss src/scss/main.scss public/css/main.css && node index.js"
+    "start": "yarn && node-sass --include-path scss src/scss/main.scss public/css/main.css && node index.js"
   },
   "devDependencies": {
     "node-sass": "^5.0.0"
